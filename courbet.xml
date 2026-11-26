@@ -2,67 +2,67 @@
 <manifest>
 
     <remote
-        name="Szes-Labs"
-        fetch="https://github.com/Szes-Labs/" />
+        name="Bzbb-Labs"
+        fetch="https://github.com/Bzbb-Labs/" />
 
     <!-- Device -->
     <project
         path="device/xiaomi/courbet"
         name="device_xiaomi_courbet"
-        remote="Szes-Labs"
-        revision="17" />
+        remote="Bzbb-Labs"
+        revision="16" />
 
     <project
         path="device/xiaomi/sm6150-common"
         name="device_xiaomi_sm6150-common"
-        remote="Szes-Labs"
-        revision="17" />
+        remote="Bzbb-Labs"
+        revision="16" />
 
     <!-- Vendor -->
     <project
         path="vendor/xiaomi/courbet"
         name="vendor_xiaomi_courbet"
-        remote="Szes-Labs"
-        revision="17" />
+        remote="Bzbb-Labs"
+        revision="16" />
 
     <project
         path="vendor/xiaomi/sm6150-common"
         name="vendor_xiaomi_sm6150-common"
-        remote="Szes-Labs"
-        revision="17" />
+        remote="Bzbb-Labs"
+        revision="16" />
 
     <!-- MIUI Camera -->
     <project
         path="vendor/miuicamera-courbet"
         name="vendor_miuicamera-courbet"
-        remote="Szes-Labs"
+        remote="Bzbb-Labs"
         revision="16" />
 
     <!-- Hardware Xiaomi -->
     <project
         path="hardware/xiaomi"
         name="android_hardware_xiaomi"
-        remote="Szes-Labs"
-        revision="lineage-24.0" />
+        remote="Bzbb-Labs"
+        revision="lineage-23.2" />
 
     <!-- Kernel -->
     <project
         path="kernel/xiaomi/sm6150"
         name="kernel_xiaomi_sm6150"
-        remote="Szes-Labs"
+        remote="Bzbb-Labs"
         revision="aosp" />
 
     <!-- Dolby -->
     <project
         path="vendor/sony/dolby"
         name="vendor_sony_dolby"
-        remote="Szes-Labs"
+        remote="Bzbb-Labs"
         revision="16" />
 
     <project
         path="packages/apps/LunarisDolby"
         name="android_packages_apps_LunarisDolby"
-        remote="Szes-Labs"
+        remote="Bzbb-Labs"
         revision="seventeen" />
 
 </manifest>
